@@ -53,7 +53,7 @@ header p, span {
     align-items: center;
     color: var(--gray-600);
     background-color: var(--gray-300);
-    max-width: 114px;
+    max-width: auto;
     max-height: 40px;
     border-radius: 999px;
     border: 0px;
@@ -64,8 +64,8 @@ header p, span {
 .icons img {
     display: flex;
     padding-right: 8px;
-    min-height: 24px;
-    min-width: 24px;
+    height: auto;
+    width: auto;
     align-items: center;
 }
 
@@ -74,8 +74,16 @@ header p, span {
     flex: content;
     justify-content: space-between;
     align-items: center;
-    width: 750px;
+    width: 870px;
     margin: auto;
     margin-top: 80px;
+    
 }
+
+.doubledown img {
+    width: 23px;
+    height: 23px;
+    margin-top: 94px;
+}
+
 
