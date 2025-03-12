@@ -30,3 +30,7 @@
     --text-sm: 14px/140% var(--maven);
 }
 
+body {
+    zoom: 0.9; /* Reduz a página sem afetar o layout */
+  overflow-x: hidden; /* Remove o scroll horizontal */
+}

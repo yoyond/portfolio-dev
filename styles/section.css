@@ -29,6 +29,10 @@
     margin: auto;
 }
 
+.grid div:hover {
+    border: 1px solid var(--gray-400);
+}
+
 .grid div {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,8 @@
 header {
     background-image: url(/assets/Background_Intro.png);
-    background-size: 1366px 750px;
+    width: 1366px;
+    height: 787px;
+    background-size: contain;
 
 }
 
