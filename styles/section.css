@@ -63,3 +63,68 @@
     font-family: var(--maven);
     padding: 12px;
 }
+
+.services {
+    width: 1366px;
+    height: 480px;
+    background-color: var(--gray-100);
+    padding-top: 88px;
+}
+
+.services h3 {
+    color: var(--principal-red);
+    font-family: var(--inconsolata);
+    font-size: var(--title-sm);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.services h2 {
+    color: var(--gray-600);
+    font-family: var(--asap);
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 56px;
+    margin: auto;
+    width: 888px;
+}
+
+.card div {
+    width: 280px;
+    height: 155px;
+    background-color: var(--gray-100);
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 12px;
+
+}
+
+.card-content {
+    width: 240px;
+    height: 115px;
+    color: var(--gray-600);
+    text-align: left;
+    font-family: var(--maven);
+    padding: 20px;
+}
+
+.card-content h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card-content p {
+    color: var(--gray-500);
+    font-size: small;
+}

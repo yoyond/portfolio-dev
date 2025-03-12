@@ -71,7 +71,6 @@ header p, span {
 
 .icons {
     display: flex;
-    flex: content;
     justify-content: space-between;
     align-items: center;
     width: 870px;
